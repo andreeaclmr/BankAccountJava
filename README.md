@@ -16,13 +16,6 @@
     - Los usuarios deben poder depositar una cantidad positiva de dinero en su cuenta.
     - Después de un depósito, el saldo de la cuenta debe incrementarse en la cantidad depositada.
 
-3. **Retirar Dinero:**
-    - Los usuarios deben poder retirar dinero de su cuenta.
-    - El sistema debe verificar que la cuenta tenga suficientes fondos antes de permitir una retirada. Si no hay suficientes fondos, la transacción debe ser rechazada y el saldo no debe cambiar.
-    - Después de una retirada exitosa, el saldo de la cuenta debe disminuir en la cantidad retirada.
-4. **Consultar el Saldo:**
-    - Los usuarios deben poder consultar el saldo actual de su cuenta en cualquier momento.
-    - El saldo debe reflejar todas las operaciones anteriores (depósitos y retiradas).
 
 **Reglas:**
 

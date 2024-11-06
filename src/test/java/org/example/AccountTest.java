@@ -31,15 +31,15 @@ assertEquals(0, balance);
     }
 
 @Test
-    void when_deposit_amount_must_be_sum_in_balance(){
+    void when_deposit_amount_must_be_the_same_if_amount_is_negative(){
 
         //Given
 Account account = new Account(1000);
         // When
-account.deposit(500);
+account.deposit(-500);
         // Then
 double balance = account.getBalance();
-assertEquals(1500, balance);
+assertEquals(1000, balance);
 
 }
 

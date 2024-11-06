@@ -9,6 +9,13 @@ class AccountTest {
     @Test
     @DisplayName("Create Account")
     void creationAccount() {
-    assertFalse(false);
+
+        // Given
+
+        // When
+Account account = new Account();
+        // Then
+double balance = account.getBalance();
+assertEquals(0, balance);
     }
 }

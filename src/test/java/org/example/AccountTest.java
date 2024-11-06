@@ -18,4 +18,18 @@ Account account = new Account();
 double balance = account.getBalance();
 assertEquals(0, balance);
     }
+
+    @Test
+    void createAccount() {
+
+        // When
+        Account account = new Account(1000);
+        // Then
+    double Balance = account.getBalance();
+        double balance = 1000;
+        assertEquals(1000, balance);
+    }
+
+
+
 }
